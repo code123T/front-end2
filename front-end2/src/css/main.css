@@ -1,0 +1,97 @@
+body{
+margin: 0;
+padding: 0;
+}
+
+header{
+background: #ffd525;
+color: white;
+}
+.website-header{
+padding: 20px;
+height: 0px;
+display: flex;
+flex-wrap: wrap;
+}
+
+.social-icon{
+text-align: right;
+flex-grow: 1;
+margin-top: 22px;
+margin-right: 18px;
+}
+.social-icon i{
+margin: 0 7px;
+cursor: pointer;
+width: 40px;
+}
+.menu-bar{
+text-align: center;
+}
+.menu-bar ul{
+list-style-type: none;
+display: inline-flex;
+gap: 2rem;
+}
+.menu-bar ul li{
+padding: 10px 20px;
+}
+.menu-bar ul li a{
+color: #fff;
+font-size: 17px;
+font-weight: 600;
+text-decoration: none;
+transition: 1s;
+}
+.menu-bar ul li a:hover{
+color: #e08b6c;
+}
+.about-news-section{
+padding: 0 30px 0 60px;
+display: flex;
+}
+#btext{
+width: 200px;
+font-size: 16px;
+text-transform: uppercase;
+color:brown;
+font-weight: 600;
+margin: auto 0;
+}
+.about-news{
+padding: 5px;
+color: #fff;
+font-weight: 800;
+display: inline-block;
+background-color: black;
+}
+.about-news:hover{
+color: #ffd525;
+}
+.btntime{
+    display: inline-block;
+    color:#ff0000;
+    padding: 0 10px;
+    font-size: 12px;
+}
+
+.main-box{
+display: flex;
+justify-content: center;
+}
+.img-box{
+margin-top: 2px;
+width: 618px;
+height: 412px;
+z-index: -1;
+}
+.h1{
+overflow: scroll;
+}
+.p{
+
+    overflow: scroll;
+}
+iframe{
+margin-top: 20px;
+}
